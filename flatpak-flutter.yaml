@@ -12,6 +12,7 @@ finish-args:
   - --device=dri
   - --share=network
   - --socket=pulseaudio
+  - --filesystem=xdg-run/discord-ipc-0
 modules:
   - name: Aqloss
     buildsystem: simple

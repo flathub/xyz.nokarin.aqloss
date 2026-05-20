@@ -15,7 +15,6 @@ finish-args:
   - --share=network
   - --socket=pulseaudio
   - --filesystem=xdg-run/discord-ipc-0
-  - --filesystem=xdg-run/pipewire-0
 modules:
   - name: Aqloss
     buildsystem: simple

@@ -14,6 +14,8 @@ finish-args:
   - --device=dri
   - --share=network
   - --socket=pulseaudio
+  - --filesystem=xdg-run/discord-ipc-0
+  - --filesystem=xdg-run/pipewire-0
 modules:
   - name: Aqloss
     buildsystem: simple
@@ -49,7 +51,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/nokarin-dev/Aqloss.git
-        commit: 9401df7314435e3fa8351ca466ec378143da352c
+        commit: 4cb42abb33dcee3de61f12afffb578f4dd19320a
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
     modules:

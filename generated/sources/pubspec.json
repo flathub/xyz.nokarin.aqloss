@@ -1794,6 +1794,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/smtc_windows-1.1.0.tar.gz",
+        "sha256": "dee279b0ddf663c4c729a88bca4e57fb4861aa1b3d01e230bdbf1277b8bfe664",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/smtc_windows-1.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "dee279b0ddf663c4c729a88bca4e57fb4861aa1b3d01e230bdbf1277b8bfe664",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "smtc_windows-1.1.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/source_gen-4.2.3.tar.gz",
         "sha256": "ec37cc0e6694374cbef59ed79685572c870a54ede6fa30a3e420feb3adffea02",
         "strip-components": 0,
@@ -1892,16 +1906,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_common-2.5.7.tar.gz",
-        "sha256": "f8a08a13fb8f0f8c590df89d745000bed44a673ed94bac846739e1a016875c21",
+        "url": "https://pub.dev/api/archives/sqflite_common-2.5.8.tar.gz",
+        "sha256": "1581ffbf7a0e333b380d6a30737d78516b826cb35beb7fb0bf8a3ea0c678b465",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_common-2.5.7"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_common-2.5.8"
     },
     {
         "type": "inline",
-        "contents": "f8a08a13fb8f0f8c590df89d745000bed44a673ed94bac846739e1a016875c21",
+        "contents": "1581ffbf7a0e333b380d6a30737d78516b826cb35beb7fb0bf8a3ea0c678b465",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_common-2.5.7.sha256"
+        "dest-filename": "sqflite_common-2.5.8.sha256"
     },
     {
         "type": "archive",

@@ -15,6 +15,8 @@ finish-args:
   - --share=network
   - --socket=pulseaudio
   - --filesystem=xdg-run/discord-ipc-0
+  - --own-name=org.mpris.MediaPlayer2.aqloss
+  - --talk-name=org.freedesktop.DBus
 modules:
   - name: Aqloss
     buildsystem: simple
@@ -50,7 +52,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/nokarin-dev/Aqloss.git
-        commit: 4cb42abb33dcee3de61f12afffb578f4dd19320a
+        commit: e3a8c208b3a72f8d676fe849b3a9e1291d421988
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
     modules:

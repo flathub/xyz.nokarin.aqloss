@@ -16,7 +16,7 @@ finish-args:
   - --socket=pulseaudio
   - --filesystem=xdg-run/discord-ipc-0
   - --own-name=org.mpris.MediaPlayer2.aqloss
-  - --talk-name=org.freedesktop.DBus
+  - --talk-name=org.freedesktop.Notifications
 modules:
   - name: Aqloss
     buildsystem: simple

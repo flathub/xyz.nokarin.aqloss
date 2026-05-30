@@ -52,7 +52,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/nokarin-dev/Aqloss.git
-        commit: e754f0c858f92c4795d72a5a36d5b60c273c58b0
+        commit: 3222d9350279d745da711f2db82837ca36625531
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
     modules:

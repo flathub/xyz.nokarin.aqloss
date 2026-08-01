@@ -44,6 +44,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/archive-4.0.9.tar.gz",
+        "sha256": "a96e8b390886ee8abb49b7bd3ac8df6f451c621619f52a26e815fdcf568959ff",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/archive-4.0.9"
+    },
+    {
+        "type": "inline",
+        "contents": "a96e8b390886ee8abb49b7bd3ac8df6f451c621619f52a26e815fdcf568959ff",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "archive-4.0.9.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/args-2.7.0.tar.gz",
         "sha256": "d0481093c50b1da8910eb0bb301626d4d8eb7284aa739614d2b394ee09e3ea04",
         "strip-components": 0,
@@ -530,6 +544,20 @@
         "contents": "917184b2fb867b70a548a83bf0d36268423b38d39968c06cce4905683da49587",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "drift_dev-2.31.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/dynamic_color-1.8.1.tar.gz",
+        "sha256": "43a5a6679649a7731ab860334a5812f2067c2d9ce6452cf069c5e0c25336c17c",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/dynamic_color-1.8.1"
+    },
+    {
+        "type": "inline",
+        "contents": "43a5a6679649a7731ab860334a5812f2067c2d9ce6452cf069c5e0c25336c17c",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "dynamic_color-1.8.1.sha256"
     },
     {
         "type": "archive",
@@ -1426,6 +1454,20 @@
         "contents": "978783255c543aa3586a1b3c21f6e9d720eb315376a915872c61ef8b5c20177d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "pool-1.5.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/posix-6.5.0.tar.gz",
+        "sha256": "185ef7606574f789b40f289c233efa52e96dead518aed988e040a10737febb07",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/posix-6.5.0"
+    },
+    {
+        "type": "inline",
+        "contents": "185ef7606574f789b40f289c233efa52e96dead518aed988e040a10737febb07",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "posix-6.5.0.sha256"
     },
     {
         "type": "archive",

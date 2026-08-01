@@ -63,4 +63,4 @@ modules:
       - generated/sources/pubspec.json
     modules:
       - generated/modules/rustup-1.94.0.json
-      - generated/modules/flutter-sdk-3.41.9.json
+      - generated/modules/flutter-sdk-3.44.8.json

@@ -2480,6 +2480,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/code_assets-1.0.0.tar.gz",
+        "sha256": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/code_assets-1.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "code_assets-1.0.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/completion-1.0.2.tar.gz",
         "sha256": "82fa09800c0b71a2e8396bf3ca6b36b43cd35fe7ba2aeab53b6349ac671d0f5b",
         "strip-components": 0,

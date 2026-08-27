@@ -58,9 +58,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/nokarin-dev/Aqloss.git
-        commit: 32ad3e3b05b169b7e32dd145ce8e7203466b09f0
+        tag: v1.0.1
+        commit: a3b1af907312e02a7eceb876913e8bbc0907c887
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
     modules:
       - generated/modules/rustup-1.94.0.json
-      - generated/modules/flutter-sdk-3.44.8.json
+      - generated/modules/flutter-sdk-3.47.1.json

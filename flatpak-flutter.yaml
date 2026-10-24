@@ -57,3 +57,6 @@ modules:
         url: https://github.com/flutter/flutter.git
         tag: 3.47.1
         dest: flutter
+      - type: file
+        path: xyz.nokarin.aqloss.metainfo.xml
+        dest: linux

@@ -23,12 +23,13 @@ finish-args:
   - --filesystem=xdg-run/discord-ipc-0
   - --own-name=org.mpris.MediaPlayer2.aqloss
   - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.kde.StatusNotifierWatcher
 modules:
+  - shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json
   - name: ffmpeg
     buildsystem: simple
     build-commands:
       - |
-        cd ffmpeg-*
         ./configure --disable-everything --disable-autodetect --disable-doc --disable-network --disable-debug --disable-avdevice --disable-swscale --disable-postproc --disable-asm --enable-small --enable-static --disable-shared --enable-ffmpeg --disable-ffprobe --enable-avcodec --enable-avformat --enable-avutil --enable-swresample --enable-avfilter --enable-protocol=file,pipe --enable-demuxer=mov --enable-decoder=ac3,eac3 --enable-muxer=pcm_f32le --enable-encoder=pcm_f32le --enable-filter=aresample --extra-cflags=-Os
         make -j$(nproc)
         install -Dm755 ffmpeg /app/bin/ffmpeg

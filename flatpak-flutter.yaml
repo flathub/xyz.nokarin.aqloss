@@ -38,7 +38,7 @@ modules:
       - install -Dm755 $BUNDLE_PATH/share/xyz.nokarin.aqloss/Aqloss /app/share/xyz.nokarin.aqloss/Aqloss
       - cp -r $BUNDLE_PATH/share/xyz.nokarin.aqloss/data /app/share/xyz.nokarin.aqloss/data
 
-      - mkdir /app/lib
+      - mkdir -p /app/lib
       - cp -r $BUNDLE_PATH/lib/xyz.nokarin.aqloss /app/lib/xyz.nokarin.aqloss
 
       - install -Dm755 $BUNDLE_PATH/bin/Aqloss /app/bin/Aqloss

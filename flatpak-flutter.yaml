@@ -15,6 +15,7 @@ finish-args:
   - --filesystem=xdg-run/discord-ipc-0
   - --own-name=org.mpris.MediaPlayer2.aqloss
   - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.kde.StatusNotifierWatcher
 modules:
   - name: Aqloss
     buildsystem: simple
